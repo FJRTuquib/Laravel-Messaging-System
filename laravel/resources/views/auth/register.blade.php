@@ -42,13 +42,31 @@
 							</div>
 						</div>
 
-						<div class="form-group">
+            <div class="form-group">
               <label class="col-md-4 control-label">Confirm Password</label>
               <div class="col-md-6">
                 <input type="password" class="form-control" name="password_confirmation">
               </div>
             </div>
 
+            {{----}}
+            <div class="form-group">
+              <label class="col-md-4 control-label">Type</label>
+              <div class="col-md-6">
+
+                <div class="col-md-6">
+                  <input type="radio" class="form-control" name="type" value="regular" checked="true">Regular
+                </div>
+
+                <div class="col-md-6">
+                  <input type="radio" class="form-control" name="type" value="admin">Admin
+                </div>
+
+              </div>
+            </div>
+            {{----}}
+
+            <br>
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
 								<button type="submit" class="btn btn-primary">

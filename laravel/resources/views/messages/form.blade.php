@@ -1,5 +1,3 @@
-{!! Form::hidden('author', Auth::user()->name) !!}
-
 <div class="form-group">
   {!! Form::label('subject', 'Subject:') !!}
   {!! Form::text('subject', null, ['class' => 'form-control']) !!}
@@ -13,3 +11,5 @@
 <div class="form-group">
   {!! Form::submit($submitButtonText, ['class' => 'btn btn-success btn-lg btn-block']) !!}
 </div>
+
+
